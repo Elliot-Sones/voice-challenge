@@ -10,13 +10,13 @@ You get 60 short recordings of real athletes answering spoken questions about ga
 
 You get the data separately, as `voice-challenge-data.zip`. Unzip it into `data/`. Start with [DATA.md](DATA.md), which explains every file and field.
 
-- 5 athletes, 12 clips each, 60 clips in total.
+- 60 clips from 5 athletes.
 - No clip says which athlete is speaking.
 - No clip is longer than 20 seconds.
 
 ## 2. The two scored tasks
 
-**Task 1: Who's speaking?** Build a voice fingerprint and use it to sort the 60 clips into one group per athlete. Name the groups however you like. We score how well your groups match the real athletes.
+**Task 1: Who's speaking?** Build a voice fingerprint and use it to sort the 60 clips into 5 groups, one per athlete. Name the groups however you like. We score how well your groups match the real athletes.
 
 **Task 2: How confident do they sound?** We labeled every clip for confidence: how sure the athlete sounds about what they are saying. 0 is hesitant and hedging. 1 is certain and committed. Score all 60 clips from 0 to 1 the same way.
 
@@ -27,9 +27,7 @@ We don't give you our labels. We compare the order of your scores with the order
 Beyond the two tasks, build a way to explore the recordings. Some directions that excite us:
 
 1. **An embedding space you can listen to.** Place every clip on a map and let us click a point to hear it. What sits close together, and why?
-2. **A fingerprint that survives the question.** Does an athlete sound the same when describing a scene as when describing a feeling? What changes, and what stays?
-3. **Confidence beyond the words.** Two clips with similar words can sound very different. Can you find those pairs?
-4. **The question effect.** Do "see", "next" and "feel" answers sound different across all athletes?
+2. **Confidence beyond the words.** Two clips with similar words can sound very different. Can you find those pairs?
 
 You don't need to use any of these. 60 clips is a small set. An honest finding about what the data can't support is worth more than a big number that is noise.
 

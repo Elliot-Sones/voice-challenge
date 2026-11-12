@@ -12,15 +12,7 @@ data/
 
 ## How the recordings were made
 
-Every athlete answered the same three spoken questions four times.
-
-| `question` | What the athlete was asked |
-|---|---|
-| `see` | What do you see happening? |
-| `next` | What do you think is going to happen next? |
-| `feel` | What are you feeling in this situation? |
-
-The athletes recorded on their own devices, so microphones and rooms differ.
+The athletes answered spoken questions about game situations.
 
 ## How the clips were prepared
 
@@ -35,10 +27,9 @@ One row per clip, 60 rows.
 | Field | Type | Notes |
 |---|---|---|
 | `clip_id` | string | `clip_01` to `clip_60`, matching `clips/<clip_id>.wav` |
-| `question` | string | `see`, `next` or `feel` |
 | `duration_s` | number | Length in seconds |
 
-Each athlete has 12 clips, four for each question. No clip says which athlete it belongs to.
+The clips come from 5 athletes. No clip says which athlete it belongs to.
 
 ## Audio
 
