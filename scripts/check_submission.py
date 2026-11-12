@@ -55,7 +55,8 @@ def main():
     if found:
         print("\n".join(found))
         sys.exit(f"{len(found)} problem(s) found.")
-    print("OK: 60 clips scored, 20 speakers named.")
+    clips = list(csv.DictReader(CLIPS.open()))
+    print(f"OK: {len(clips)} clips scored, {sum(not row['speaker'] for row in clips)} speakers named.")
 
 
 if __name__ == "__main__":

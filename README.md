@@ -1,6 +1,6 @@
 # NTangible Voice Challenge
 
-60 short recordings of athletes describing a game picture. Find out what their voices carry.
+30 short recordings of athletes describing a game picture. Find out what their voices carry.
 
 - **[CHALLENGE.md](CHALLENGE.md):** the brief, the two scored tasks, the rules and how to submit.
 - **[DATA.md](DATA.md):** every file and field, and how the clips were prepared.
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 jupyter lab starter.ipynb
 ```
 
-The starter notebook loads the clips, plays one, and draws a first map of all 60 clips from simple sound features. It is a starting point, not an answer.
+The starter notebook loads the clips, plays one, and draws a first map of all 30 clips from simple sound features. It is a starting point, not an answer.
 
 `python scripts/check_submission.py submission.csv` checks your answers file.
 
