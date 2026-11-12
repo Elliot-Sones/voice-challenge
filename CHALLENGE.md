@@ -11,12 +11,12 @@ You get 60 short recordings of real athletes. Each athlete looked at a game pict
 You get the data separately, as `voice-challenge-data.zip`. Unzip it into `data/`. Start with [DATA.md](DATA.md), which explains every file and field.
 
 - 5 athletes, 12 clips each, 60 clips in total.
-- 40 clips say which athlete is speaking. 20 clips don't.
+- No clip says which athlete is speaking.
 - No clip is longer than 20 seconds.
 
 ## 2. The two scored tasks
 
-**Task 1: Who's speaking?** Each of the 20 unlabeled clips belongs to one of the 5 athletes. Build a voice fingerprint and use it to name the speaker of each one.
+**Task 1: Who's speaking?** Build a voice fingerprint and use it to sort the 60 clips into one group per athlete. Name the groups however you like. We score how well your groups match the real athletes.
 
 **Task 2: How confident do they sound?** We labeled every clip for confidence: how sure the athlete sounds about what they are saying. 0 is hesitant and hedging. 1 is certain and committed. Score all 60 clips from 0 to 1 the same way.
 

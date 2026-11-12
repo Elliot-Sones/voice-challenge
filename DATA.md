@@ -35,12 +35,11 @@ One row per clip, 60 rows.
 | Field | Type | Notes |
 |---|---|---|
 | `clip_id` | string | `clip_01` to `clip_60`, matching `clips/<clip_id>.wav` |
-| `speaker` | string | `player_1` to `player_5`. Blank for the 20 clips in Task 1. |
 | `picture` | string | `A`, `B`, `C` or `D`, the picture the answer is about |
 | `question` | string | `see`, `next` or `feel` |
 | `duration_s` | number | Length in seconds |
 
-Each athlete has 12 clips: one per question for each picture. In each athlete's set, one clip per picture is unlabeled.
+Each athlete has 12 clips: one per question for each picture. No clip says which athlete it belongs to.
 
 ## Audio
 
@@ -54,14 +53,12 @@ WAV, 16,000 samples per second, one channel, 16-bit.
 |---|---|---|
 | `clip_id` | every row | From `clips.csv` |
 | `confidence` | every row | A number from 0 to 1. Higher means more confident. |
-| `speaker` | the 20 unlabeled clips | One of `player_1` to `player_5`. Leave it blank on the other 40. |
+| `speaker` | every row | Your name for the athlete's group, such as `g1`. Give every clip from one athlete the same name. |
 
 ```csv
 clip_id,confidence,speaker
-clip_01,0.35,
-clip_xx,0.62,player_3
+clip_01,0.35,g2
+clip_02,0.62,g4
 ```
-
-Here `clip_01` is a labeled clip, so its speaker stays blank. `clip_xx` stands for one of the 20 unlabeled clips.
 
 `python scripts/check_submission.py submission.csv` checks the file against `data/clips.csv`.
