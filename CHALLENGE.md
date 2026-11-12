@@ -2,7 +2,7 @@
 
 NTangible measures the mental side of athletic performance, the part the box score misses. We are now asking what a player's **voice** can tell us.
 
-You get 60 short recordings of real athletes. Each athlete looked at a game picture, imagined being in it, and answered three spoken questions. We changed every voice and removed anything that identifies the athletes.
+You get 60 short recordings of real athletes. Each athlete looked at a game picture, imagined being in it, and answered three spoken questions. We replaced every name and ID with a code.
 
 **Show us what the voice carries that the words don't.**
 
@@ -37,7 +37,7 @@ You don't need to use any of these. 60 clips is a small set. An honest finding a
 
 - **Use AI to write code.** But own what you ship. If we ask about a tradeoff or a limit, you must be able to answer.
 - **Keep the recordings on your machine.** Don't upload the clips, or text made from them, to any online service, API or hosted model. Run every model locally.
-- **Don't try to undo the voice change or work out who anyone is.**
+- **Don't try to work out who anyone is.**
 - **Don't share the data, and don't commit it to any repository.** Delete it after the share-out.
 - **Any stack, any tools**, within the rules above.
 

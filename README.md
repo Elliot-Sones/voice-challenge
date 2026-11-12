@@ -3,7 +3,7 @@
 60 short recordings of athletes describing a game picture. Find out what their voices carry.
 
 - **[CHALLENGE.md](CHALLENGE.md):** the brief, the two scored tasks, the rules and how to submit.
-- **[DATA.md](DATA.md):** every file and field, and how the recordings were changed.
+- **[DATA.md](DATA.md):** every file and field, and how the clips were prepared.
 
 ## Start in 5 minutes
 
@@ -22,4 +22,4 @@ The starter notebook loads the clips, plays one, and draws a first map of all 60
 
 `python scripts/check_submission.py submission.csv` checks your answers file.
 
-The recordings are real athletes with changed voices. Keep them on your machine, and out of every commit. The rules are in [CHALLENGE.md](CHALLENGE.md#4-rules).
+The recordings are real athletes. Keep them on your machine, and out of every commit. The rules are in [CHALLENGE.md](CHALLENGE.md#4-rules).

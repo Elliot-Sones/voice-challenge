@@ -22,12 +22,11 @@ Each athlete looked at a game picture, imagined being one of the people in it, a
 
 The athletes recorded on their own devices, so microphones and rooms differ.
 
-## What we changed
+## How the clips were prepared
 
-- **The voice.** Every athlete's voice was changed with one fixed setting for that athlete. Their pitch level and the tone of their voice moved. Each athlete keeps the same changed voice in all 6 clips.
-- **Kept as recorded.** Timing, pauses, speaking pace and the rise and fall of pitch. Loudness matches the original clip.
 - **Length.** Clips longer than 20 seconds were cut at 20 seconds.
 - **Identity.** Codes replace every name and ID. Clips are in random order.
+- **Nothing else.** The audio is as recorded.
 
 ## clips.csv
 
@@ -60,7 +59,7 @@ WAV, 16,000 samples per second, one channel, 16-bit.
 ```csv
 clip_id,confidence,speaker
 clip_01,0.35,
-clip_xx,0.62,spk_B
+clip_xx,0.62,spk_A
 ```
 
 Here `clip_01` is a labeled clip, so its speaker stays blank. `clip_xx` stands for one of the 20 unlabeled clips.
