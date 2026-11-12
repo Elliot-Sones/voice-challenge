@@ -12,7 +12,7 @@ data/
 
 ## How the recordings were made
 
-Each athlete looked at a game picture, imagined being one of the people in it, and answered three spoken questions about it. Every athlete was asked the same three questions about the same four pictures. The pictures are not included.
+Every athlete answered the same three spoken questions four times.
 
 | `question` | What the athlete was asked |
 |---|---|
@@ -35,11 +35,10 @@ One row per clip, 60 rows.
 | Field | Type | Notes |
 |---|---|---|
 | `clip_id` | string | `clip_01` to `clip_60`, matching `clips/<clip_id>.wav` |
-| `picture` | string | `A`, `B`, `C` or `D`, the picture the answer is about |
 | `question` | string | `see`, `next` or `feel` |
 | `duration_s` | number | Length in seconds |
 
-Each athlete has 12 clips: one per question for each picture. No clip says which athlete it belongs to.
+Each athlete has 12 clips, four for each question. No clip says which athlete it belongs to.
 
 ## Audio
 

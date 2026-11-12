@@ -2,7 +2,7 @@
 
 NTangible measures the mental side of athletic performance, the part the box score misses. We are now asking what a player's **voice** can tell us.
 
-You get 60 short recordings of real athletes. Each athlete looked at a game picture, imagined being in it, and answered three spoken questions. We replaced every name and ID with a code.
+You get 60 short recordings of real athletes answering spoken questions about game situations. We replaced every name and ID with a code.
 
 **Show us what the voice carries that the words don't.**
 

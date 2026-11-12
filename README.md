@@ -1,6 +1,6 @@
 # NTangible Voice Challenge
 
-60 short recordings of athletes describing a game picture. Find out what their voices carry.
+60 short recordings of athletes answering questions about game situations. Find out what their voices carry.
 
 - **[CHALLENGE.md](CHALLENGE.md):** the brief, the two scored tasks, the rules and how to submit.
 - **[DATA.md](DATA.md):** every file and field, and how the clips were prepared.
