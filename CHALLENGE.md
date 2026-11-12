@@ -2,7 +2,7 @@
 
 NTangible measures the mental side of athletic performance, the part the box score misses. We are now asking what a player's **voice** can tell us.
 
-You get 30 short recordings of real athletes. Each athlete looked at a game picture, imagined being in it, and answered three spoken questions. We replaced every name and ID with a code.
+You get 60 short recordings of real athletes. Each athlete looked at a game picture, imagined being in it, and answered three spoken questions. We replaced every name and ID with a code.
 
 **Show us what the voice carries that the words don't.**
 
@@ -10,15 +10,15 @@ You get 30 short recordings of real athletes. Each athlete looked at a game pict
 
 You get the data separately, as `voice-challenge-data.zip`. Unzip it into `data/`. Start with [DATA.md](DATA.md), which explains every file and field.
 
-- 5 athletes, 6 clips each, 30 clips in total.
-- 20 clips say which athlete is speaking. 10 clips don't.
+- 5 athletes, 12 clips each, 60 clips in total.
+- 40 clips say which athlete is speaking. 20 clips don't.
 - No clip is longer than 20 seconds.
 
 ## 2. The two scored tasks
 
-**Task 1: Who's speaking?** Each of the 10 unlabeled clips belongs to one of the 5 athletes. Build a voice fingerprint and use it to name the speaker of each one.
+**Task 1: Who's speaking?** Each of the 20 unlabeled clips belongs to one of the 5 athletes. Build a voice fingerprint and use it to name the speaker of each one.
 
-**Task 2: How confident do they sound?** We labeled every clip for confidence: how sure the athlete sounds about what they are saying. 0 is hesitant and hedging. 1 is certain and committed. Score all 30 clips from 0 to 1 the same way.
+**Task 2: How confident do they sound?** We labeled every clip for confidence: how sure the athlete sounds about what they are saying. 0 is hesitant and hedging. 1 is certain and committed. Score all 60 clips from 0 to 1 the same way.
 
 We don't give you our labels. We compare the order of your scores with the order of ours, so what matters is which clips you rank as more confident than others, not the exact numbers. Tell us in your README how your score works and why you think it measures confidence.
 
@@ -31,7 +31,7 @@ Beyond the two tasks, build a way to explore the recordings. Some directions tha
 3. **Confidence beyond the words.** Two clips with similar words can sound very different. Can you find those pairs?
 4. **The question effect.** Do "see", "next" and "feel" answers sound different across all athletes?
 
-You don't need to use any of these. 30 clips is a small set. An honest finding about what the data can't support is worth more than a big number that is noise.
+You don't need to use any of these. 60 clips is a small set. An honest finding about what the data can't support is worth more than a big number that is noise.
 
 ## 4. Rules
 
