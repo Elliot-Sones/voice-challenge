@@ -50,14 +50,4 @@ You don't need to use any of these. 60 clips is a small set. An honest finding a
 
 The due date is in your email. We'll do a share-out where everyone demos their build.
 
-## 6. How we'll look at it
-
-| What | What we're asking |
-|---|---|
-| Task results | How many speakers did you name correctly? How closely does your confidence order match ours? |
-| Creativity | Did you make something we haven't seen before? A standard dashboard is the baseline. |
-| Insight | Did you find something real about what voices carry? Does your build make it obvious? |
-| Rigor | With 60 clips, did you separate signal from noise, and say where the data runs out? |
-| Communication | A README that explains what you built and why, and a demo that lands the point in a couple of minutes. |
-
 Questions at any point: [elliot@ntangible.co](mailto:elliot@ntangible.co).
